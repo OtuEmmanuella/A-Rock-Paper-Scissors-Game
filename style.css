@@ -54,12 +54,10 @@ p {
   font-size: 1.5em;
   font-weight: 700;
   margin-top: 1.5em;
-  border: 1px solid red;
 }
 
 .message {
   margin: 2em 0;
-  border: 1px solid red;
 }
 
 .score-msg {
