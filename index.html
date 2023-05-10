@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js course</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--container-->
+    <div class="container">
+      <h2>Rock Paper Scissors</h2>
+      <div class="flex-wrap">
+        <!--flex-wrap-->
+        <button class="move-btn" id="rock-btn">
+          <img
+            class="move-icon"
+            src="emojis/rock-emoji.png"
+            alt="A rock hand emoji"
+          />
+        </button>
+        <button class="move-btn" id="paper-btn">
+          <img
+            class="move-icon"
+            src="emojis/paper-emoji.png"
+            alt="A paper hand emoji"
+          />
+        </button>
+        <button class="move-btn" id="scissors-btn">
+          <img
+            class="move-icon"
+            src="emojis/scissors-emoji.png"
+            alt="A Scissors hand emoji"
+          />
+        </button>
+      </div>
+      <p class="result" id="result-message"></p>
+      <p class="message" id="message-el"></p>
+      <p class="score-msg" id="score-message"></p>
+      <button class="reset-button" id="reset-btn">Reset Score</button>
+    </div>
+    <!--flex-wrap end-->
+    <!--container end-->
+    <script src="script.js"></script>
+  </body>
+</html>
